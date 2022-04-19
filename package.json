@@ -1,0 +1,51 @@
+{
+  "name": "flaster-db",
+  "version": "1.0.1",
+  "description": "Flaster-DB is a database for storing and retrieving data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fanisus/Flaster-DB.git"
+  },
+  "keywords": [
+    "database",
+    "json",
+    "json-db",
+    "db",
+    "json.db",
+    "online-database",
+    "online-json-database",
+    "online-json-db",
+    "online",
+    "cloud",
+    "cloud-database",
+    "cloud-json-database",
+    "cloud-json-db",
+    "cloud-db",
+    "deep",
+    "deep-database",
+    "deep-json-database",
+    "nested",
+    "nested-database",
+    "nested-json-database",
+    "nested-json-db",
+    "nested-db",
+    "deep-nested",
+    "dot-notation",
+    "dot",
+    "flaster",
+    "flaster.db",
+    "flaster_db",
+    "flaster-db",
+    "flasterdb"
+  ],
+  "author": "Fanisus",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Fanisus/Flaster-DB/issues"
+  },
+  "homepage": "https://github.com/Fanisus/Flaster-DB#readme"
+}
