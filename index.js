@@ -1,7 +1,7 @@
 const fs = require('fs');
 const http = require('http');
 
-let file;
+// let file;
 
 class Database {
     constructor(folderPath, options) {
@@ -10,7 +10,7 @@ class Database {
             folderPath += '/'
         }
         this.options = options || {};
-        file = folderPath + this.options?.file || "./db.json";
+        let file = folderPath + this.options?.file || "./db.json";
         if (!fs.existsSync(folderPath)) {
             fs.mkdirSync(folderPath, { recursive: true })
         }
