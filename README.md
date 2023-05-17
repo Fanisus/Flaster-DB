@@ -1,17 +1,17 @@
 
-# Flaster-DB
+# odb.json
 
 Performance at its best!
 Uses JSON to store data.
 
 ```bash
-npm i flaster-db@latest
+npm i odb.json@latest
 ```
 
 ## Database Examples
 
 ```javascript
-const Database = require('flaster-db')
+const Database = require('odb.json')
 //                                      Folder
 const db = new Database.Database('./Local-Database-Folder', {
     backup: {
@@ -73,7 +73,7 @@ db.data(); // Returns the whole Database
 
 ## Server-side Database setup
 ```javascript
-const Database = require('flaster-db');
+const Database = require('odb.json');
 //                                          Folder
 const db-server = new Database.Server('./Database-folder-name', {
     servertype: 'master' // Choose Master
@@ -84,7 +84,7 @@ const db-server = new Database.Server('./Database-folder-name', {
 ## Client-side Database
 
 ```javascript
-const Database = require('flaster-db');
+const Database = require('odb.json');
 
 //                              IP Address
 const db = new Database.Client('localhost', {
@@ -141,14 +141,21 @@ db.clear(); // {}
     + data()
     + size()
 + Added Typings
-+ Bug Fixes (Fixed my mistake while setting data as 0, false, null throws error), (Fixed the ability to type in console even while the cli is disabled)
++ Bug Fixes (Fixed my mistake while setting data as 0, false, null throws error), (Fixed the ability to type in console even while the cli is disabled), (Fixed saving to same file when using 2 instances of local database)
 - Removed my ugly console.logs from push
 - Fixed issue when using get or has throws an error when the value is not found
 ```
 
+## Upcoming Features
+
+```
++ Ability to use a different separator for deep (currently ".")
++ Ability to make use of deep in the keys and values commands
+```
+
 ## Support
 
-If you have any doubts join my [Discord](https://discord.gg/RrDDamRqUS) => [Flaster-DB](https://discord.gg/RrDDamRqUS)
+If you have any doubts join my [Discord](https://discord.gg/bRbCTEHmyT) => [odb.json](https://discord.gg/bRbCTEHmyT)
 
 ## Authors
 
